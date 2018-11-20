@@ -1,30 +1,25 @@
 !#bin/bash
 
-echo  -e "\e[36m how much disk space has been used?"
-df -h
-echo ""
-echo ""
-echo ""
+#Disk Used
+diskused=$( df -h | grep “dev/sda1” | awk ‘{print $5}’)
 
-echo -e  "\e[36m how much RAM memory is free?"
-free -h
-echo ""
-echo ""
-echo ""
+#RAM Available
+memfree=$(free -mh | awk '{print $7}')
 
-echo -e "\e[36m how many connections there are to the current machine?"
-netstat
+#Connenetions Check
+connections=$(netstat | grep tcp)
 
-#to count: netstat | grep "CONNECTED" | wc -l
-# "wc -l" is the function to count
+#Logged In Check?
+connections=$(netstat | grep tcp)
 
-echo ""
-echo ""
-echo ""
- 
-echo -e "\e[36m who is logged in?"
-who 
-echo ""
-echo ""
-echo ""
-
+echo "This is a snapshot of your current of system:
+                Disk Used: $diskused
+                
+                Free Memory: $memfree
+                
+                Logged in Users: $users
+                
+                
+Open Internet Connections:
+$connections
+"
