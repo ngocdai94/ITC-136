@@ -14,11 +14,11 @@ users=$(who | awk '{print $1}')
 
 # "-en / -e" interpret color
 echo -en "This is a snapshot of your current of system:
-         \e[92mLight green                         Disk Used: $diskused
-         \e[91mLight red                           Free Memory: $memfree
-         \e[96mLight cyan                          Logged in Users: $users
+         \e[92m                         Disk Used: $diskused
+         \e[91m                         Free Memory: $memfree
+         \e[96m                         Logged in Users: $users
                 
-                
+\e[46m                
 Open Internet Connections:
 $connections
 "
