@@ -21,6 +21,7 @@ echo -en "This is a snapshot of your current of system:
 \e[46m                
 Open Internet Connections:
 $connections
+\e[49m
 "
 
 #Color Formating in Bash:
