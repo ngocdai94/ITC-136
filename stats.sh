@@ -10,7 +10,7 @@ memfree=$(free -mh | awk '{print $7}')
 connections=$(netstat | grep tcp)
 
 #Logged In Check?
-connections=$(netstat | grep tcp)
+users=$(who)
 
 echo "This is a snapshot of your current of system:
                 Disk Used: $diskused
