@@ -1,7 +1,7 @@
 !#bin/bash
 
 #Disk Used
-diskused=$( df -h | grep “dev/sda1” | awk ‘{print $5}’)
+diskused=$( df -h | grep 'dev/sda1' | awk '{print $5}')
 
 #RAM Available
 memfree=$(free -mh | awk '{print $7}')
