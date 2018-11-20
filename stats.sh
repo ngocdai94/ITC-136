@@ -14,7 +14,7 @@ users=$(who)
 
 echo "This is a snapshot of your current of system:
                                   Disk Used: $diskused
-                                  Free Memory: $memfree
+                                  Free Memory:$memfree
                                   Logged in Users: $users
                 
                 
