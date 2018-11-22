@@ -1,0 +1,9 @@
+[Desktop Entry]
+Version=0.1
+Name=Stats
+Comment=Hello ITC-136 - We are making an icon
+Exec=/usr/bin/gnome-terminal -e "bash -c '/usr/local/bin/stats; bash'"
+Icon=/home/dainguyen/Desktop/desk_icon.png
+Terminal=false
+Type=Application
+Categories=Ultility;Application;
