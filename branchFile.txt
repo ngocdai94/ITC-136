@@ -6,3 +6,7 @@ I am the master. I updated this file.
 add some edits here
 
 haha I have added some changes from the branch :)
+
+
+#3
+# test from a branchTest1
