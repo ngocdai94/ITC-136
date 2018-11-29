@@ -1,4 +1,5 @@
 #!/bin/bash
+# Filename: whereAmI.sh
 # Author: Dai Nguyen
 # Description: The script will print out user's information, location, and
 # sudo privilege.
