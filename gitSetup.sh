@@ -1,4 +1,5 @@
 #!/bin/bash
+# Filename: gitSetup.sh
 # Author: Dai Nguyen
 # Description: This script will setup the User's GitHub
 
