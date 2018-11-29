@@ -1,4 +1,5 @@
 #!/bin/bash
+# Filename: gitRefresh.sh
 # Author: Dai Nguyen
 # Description: The script will refresh git repository status script
 
