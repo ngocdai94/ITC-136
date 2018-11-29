@@ -1,0 +1,10 @@
+
+[Desktop Entry]
+Version=0.1
+Name=GitInstall
+Comment=Git Install Script
+Exec=/usr/bin/gnome-terminal -e 'bash -c '/usr/local/bin/gitInstall; bash''
+#Icon=/home/dainguyen/Desktop/desk_icon.png
+Terminal=false
+Type=Application
+Categories=Ultility;Application;
