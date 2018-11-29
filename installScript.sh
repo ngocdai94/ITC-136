@@ -1,4 +1,5 @@
 #!/bin/bash
+# Filename: installScript.sh
 # Author: Dai Nguyen
 # Description: This script will install the "gitSetup.sh" to the
 # appropriate location, "/usr/local/bin"
